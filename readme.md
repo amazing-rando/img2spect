@@ -8,7 +8,7 @@
 
 Every signal has both a time and frequency component.  The relationship between these domains is illustrated above.  Here, we take an image and store its luminance values within the frequency domain of an audio signal.  This script utilizes a [Fourier transform](https://en.wikipedia.org/wiki/Fourier_transform) to encode the luminance values of a user-provided image file and outputs it as a WAV file in a similar method to the one employed by the aforementioned electronic artist.
 
-![Spectrogram of op-art that was stored in a WAV file.](./test-images/spectrograms/4.png  =600x)
+![Spectrogram of op-art that was stored in a WAV file.](./test-images/spectrograms/4.png)
 
 Example images, their resultant WAV files, and spectrograms of those WAV files are provided in the *test-images* directory.  Above is an example spectrogram of an image encoded using this script.  The level of detail that can be stored within the frequency domain of audio is quite astonishing!
 
